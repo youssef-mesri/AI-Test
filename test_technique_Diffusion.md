@@ -1,7 +1,7 @@
 # Test technique – Diffusion pour la génération de microstructures matériaux
 
-**Durée :** 4h (ou à rendre sous 48h)  
-**Outils autorisés :** Python, PyTorch / JAX / TensorFlow, NumPy
+**Durée :** à rendre sous 48h  
+**Outils autorisés :** Python, PyTorch, NumPy
 
 ## Livrables
 
@@ -15,7 +15,7 @@
 On considère une base de données synthétique de microstructures 2D représentées par :
 
 
-- **Une image binaire** `M(x,y)` (grains)
+- **Une image binaire** `M(x,y)` = (grains)
 
 - **Un champ scalaire** `G(x,y)` = taille de grain locale
 
@@ -42,8 +42,6 @@ Charger le dataset fourni (`.npz`) contenant `(M, G, O, z)`.
 
 - Les corrélations entre `z` et les statistiques spatiales
 
-**Évaluer :** data literacy, compréhension physique.
-
 ---
 
 ## Partie 2 — Diffusion conditionnelle (1h30)
@@ -62,8 +60,6 @@ avec :
 1. Implémenter un petit U-Net conditionnel
 2. Encoder `z` via un MLP et l'injecter par **FiLM**
 3. Entraîner sur 50 epochs
-
-**Évaluer :** architecture, gestion du conditionnement, stabilité de l'entraînement.
 
 ---
 
@@ -85,8 +81,6 @@ Pour **20 microstructures générées** :
 
 - Une courbe : erreur relative sur chaque métrique
 
-**Évaluer :** rigueur scientifique, pertinence des métriques.
-
 ---
 
 ## Partie 4 — Question ouverte (1h)
@@ -95,7 +89,6 @@ Pour **20 microstructures générées** :
 
 > Générer des microstructures 3D cohérentes à partir de métriques 2D uniquement.
 
-**Évaluer :** créativité, raisonnement physique, faisabilité technique.
 
 ---
 
@@ -103,6 +96,4 @@ Pour **20 microstructures générées** :
 
 - Le code doit être **clair et commenté**
 - Les choix méthodologiques doivent être **justifiés**
-- L'évaluation doit être **quantitative et visuelle**
-
 - L'évaluation doit être **quantitative et visuelle**
