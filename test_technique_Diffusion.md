@@ -23,7 +23,7 @@ On considère une base de données synthétique de microstructures 2D représent
 
 - **Un vecteur global de métriques :**
 
-$$z = (\mu_G, \sigma_G, \mu_O, \text{nb\_voisins})$$
+  $$z = (\mu_G, \sigma_G, \mu_O, \text{nb\_voisins})$$
 
 **L'objectif** est de générer des microstructures cohérentes conditionnellement à `z`.
 
